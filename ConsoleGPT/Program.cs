@@ -8,7 +8,7 @@ class Program
         {
             // https://platform.openai.com/account/api-keys
             // Cria uma instancia da classe APIAuthentication com a sua chave API
-            var autenticacao = new APIAuthentication("suaChaveAqui");
+            var autenticacao = new APIAuthentication("org-wtHywKexcv4W9HfAVm2sSqrl");
 
             // Cria uma instancia da classe OpenAIAPI com o objeto APIAuthentication
             var api = new OpenAIAPI(autenticacao);
